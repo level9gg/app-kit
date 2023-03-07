@@ -1,8 +1,8 @@
 {
-  "name": "@level9gg/boilerplate",
-  "version": "0.0.1",
+  "name": "@level9gg/app-kit",
+  "version": "0.0.0",
   "private": true,
-  "description": "Boilerplate for Level9.GG applications",
+  "description": "Level9.GG App Kit is the fastest way to create new Node.js applications, in the Level9.GG way!",
   "main": "dist/main.js",
   "scripts": {
     "clean": "rimraf dist/",
@@ -17,7 +17,7 @@
   },
   "keywords": [
     "level9gg",
-    "boilerplate"
+    "starter kit"
   ],
   "author": "Gabriel Mangiurea",
   "license": "Unlicensed",
