@@ -40,5 +40,8 @@
   "dependencies": {
     "dotenv-cli": "^7.0.0",
     "env-var": "^7.3.0"
+  },
+  "engines": {
+    "node": ">=18.12.1"
   }
 }
