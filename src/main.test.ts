@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { Level9GG } from '.';
+import { Level9GG } from './main';
 
 describe('Level9GG.HelloWorld', () => {
   it('should return "Hello world!"', () => {

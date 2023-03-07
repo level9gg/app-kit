@@ -3,10 +3,13 @@
   "version": "0.0.1",
   "private": true,
   "description": "Boilerplate for Level9.GG applications",
-  "main": "dist/index.js",
+  "main": "dist/main.js",
   "scripts": {
     "clean": "rimraf dist/",
     "build": "tsc",
+    "build:dev": "tsc -w",
+    "start": "node dist/main.js",
+    "start:dev": "tsc-watch -p ./tsconfig.json --onSuccess \"nodemon ./dist/main.js\"",
     "lint": "eslint --fix src/",
     "prettier": "prettier --write src/",
     "test": "vitest src/",
@@ -27,8 +30,10 @@
     "eslint-config-prettier": "^8.7.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2",
+    "nodemon": "^2.0.21",
     "prettier": "2.8.4",
     "rimraf": "^4.3.1",
+    "tsc-watch": "^6.0.0",
     "typescript": "^4.9.5",
     "vitest": "^0.29.2"
   }
